@@ -1,0 +1,26 @@
+[
+    {
+        "ID": "PEGA-DEFECT-104",
+        "DESCRIPTION": "The service fails when the eligibility date is set 30 years in the future.",
+        "KEY_FINDING": "Eligibility date boundary limits are not correctly enforced.",
+        "SCORE": 3
+    },
+    {
+        "ID": "PEGA-DEFECT-105",
+        "DESCRIPTION": "Access token generation is slow under peak load.",
+        "KEY_FINDING": "Authentication service is facing severe latency issues.",
+        "SCORE": 5 
+    },
+    {
+        "ID": "PEGA-DEFECT-106",
+        "DESCRIPTION": "System allows negative values in the balance field.",
+        "KEY_FINDING": "Negative number input validation failed on balance field.",
+        "SCORE": 5
+    },
+    {
+        "ID": "PEGA-DEFECT-109",
+        "DESCRIPTION": "The service fails when the eligibility date is set 30 years in the future.",
+        "KEY_FINDING": "Eligibility date boundary limits are correctly bla bla .",
+        "SCORE": 5
+    }
+]

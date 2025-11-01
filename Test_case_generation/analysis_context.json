@@ -1,0 +1,25 @@
+{
+    "HISTORICAL_DEFECTS": [
+        "Off-by-one errors in eligibility date checks (PEGA-1002).",
+        "The service fails when the eligibility date is set 30 years in the future. (PEGA-DEFECT-104)",
+        "Access token generation is slow under peak load. (PEGA-DEFECT-105)",
+        "System allows negative values in the balance field. (PEGA-DEFECT-106)",
+        "The service fails when the eligibility date is set 30 years in the future. (PEGA-DEFECT-109)"
+    ],
+    "CRITICAL_RISK_SCORE": 5,
+    "PRIMARY_RISKS": [
+        {
+            "KEY_FINDING": "Authentication service is facing severe latency issues.",
+            "ID": "PEGA-DEFECT-105"
+        },
+        {
+            "KEY_FINDING": "Negative number input validation failed on balance field.",
+            "ID": "PEGA-DEFECT-106"
+        },
+        {
+            "KEY_FINDING": "Eligibility date boundary limits are correctly bla bla .",
+            "ID": "PEGA-DEFECT-109"
+        }
+    ],
+    "RISK_PROFILE_SUMMARY": "Priority Score 5/5: CRITICAL UPDATE: Validate: PEGA-DEFECT-105: Authentication service is facing severe latency issues. AND PEGA-DEFECT-106: Negative number input validation failed on balance field. AND PEGA-DEFECT-109: Eligibility date boundary limits are correctly bla bla .. Tests MUST specifically address ALL listed critical updates. Secondary Focus: Standard robustness checks."
+}
